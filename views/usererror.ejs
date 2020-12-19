@@ -1,0 +1,20 @@
+<%- include("partials/header"); %>
+
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Error⚠️</h1>
+    <p class="lead">No such user found</p>
+    <label >If don't have an account, Sign-up here 👇</label>
+    <form  action="/usererror" method="post">
+
+       <button type="submit" class="btn btn-lg btn-warning" name="submit">Sign-up</button>
+    </form>
+  </div>
+
+
+</div>
+
+
+
+<%- include("partials/footer"); %>
